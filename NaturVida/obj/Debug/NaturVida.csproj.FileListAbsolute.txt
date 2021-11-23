@@ -1,0 +1,11 @@
+C:\Users\luism\OneDrive\Escritorio\Proyectós React\NaturVisa-Sena\NaturVida\NaturVida\bin\Debug\NaturVida.exe.config
+C:\Users\luism\OneDrive\Escritorio\Proyectós React\NaturVisa-Sena\NaturVida\NaturVida\bin\Debug\NaturVida.exe
+C:\Users\luism\OneDrive\Escritorio\Proyectós React\NaturVisa-Sena\NaturVida\NaturVida\bin\Debug\NaturVida.pdb
+C:\Users\luism\OneDrive\Escritorio\Proyectós React\NaturVisa-Sena\NaturVida\NaturVida\obj\Debug\NaturVida.csproj.AssemblyReference.cache
+C:\Users\luism\OneDrive\Escritorio\Proyectós React\NaturVisa-Sena\NaturVida\NaturVida\obj\Debug\NaturVida.GestionProdc.resources
+C:\Users\luism\OneDrive\Escritorio\Proyectós React\NaturVisa-Sena\NaturVida\NaturVida\obj\Debug\NaturVida.Login.resources
+C:\Users\luism\OneDrive\Escritorio\Proyectós React\NaturVisa-Sena\NaturVida\NaturVida\obj\Debug\NaturVida.Properties.Resources.resources
+C:\Users\luism\OneDrive\Escritorio\Proyectós React\NaturVisa-Sena\NaturVida\NaturVida\obj\Debug\NaturVida.csproj.GenerateResource.cache
+C:\Users\luism\OneDrive\Escritorio\Proyectós React\NaturVisa-Sena\NaturVida\NaturVida\obj\Debug\NaturVida.csproj.CoreCompileInputs.cache
+C:\Users\luism\OneDrive\Escritorio\Proyectós React\NaturVisa-Sena\NaturVida\NaturVida\obj\Debug\NaturVida.exe
+C:\Users\luism\OneDrive\Escritorio\Proyectós React\NaturVisa-Sena\NaturVida\NaturVida\obj\Debug\NaturVida.pdb
