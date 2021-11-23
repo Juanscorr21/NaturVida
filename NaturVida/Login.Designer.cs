@@ -104,7 +104,7 @@ namespace NaturVida
             this.button1.BackColor = System.Drawing.Color.LimeGreen;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(275, 359);
+            this.button1.Location = new System.Drawing.Point(285, 355);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(226, 38);
             this.button1.TabIndex = 6;
@@ -115,7 +115,7 @@ namespace NaturVida
             // pictureBox1
             // 
             this.pictureBox1.Image = global::NaturVida.Properties.Resources.naturvida;
-            this.pictureBox1.Location = new System.Drawing.Point(590, 46);
+            this.pictureBox1.Location = new System.Drawing.Point(580, 46);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(53, 47);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -136,7 +136,7 @@ namespace NaturVida
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Login";
-            this.Text = "Form1";
+            this.Text = "Login";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

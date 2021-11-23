@@ -51,5 +51,10 @@ namespace NaturVida
         {
 
         }
+
+        private void tabPage_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

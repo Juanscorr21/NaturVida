@@ -29,8 +29,8 @@ namespace NaturVida
         /// </summary>
         private void InitializeComponent()
         {
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage = new System.Windows.Forms.TabPage();
+            this.poh = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
@@ -64,8 +64,8 @@ namespace NaturVida
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.tabPage3.SuspendLayout();
-            this.tabControl1.SuspendLayout();
+            this.tabPage.SuspendLayout();
+            this.poh.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage4.SuspendLayout();
@@ -76,42 +76,43 @@ namespace NaturVida
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
-            // tabPage3
+            // tabPage
             // 
-            this.tabPage3.Controls.Add(this.pictureBox4);
-            this.tabPage3.Controls.Add(this.textBox4);
-            this.tabPage3.Controls.Add(this.textBox3);
-            this.tabPage3.Controls.Add(this.textBox2);
-            this.tabPage3.Controls.Add(this.button2);
-            this.tabPage3.Controls.Add(this.button1);
-            this.tabPage3.Controls.Add(this.label5);
-            this.tabPage3.Controls.Add(this.label4);
-            this.tabPage3.Controls.Add(this.label2);
-            this.tabPage3.Controls.Add(this.label1);
-            this.tabPage3.Controls.Add(this.textBox1);
-            this.tabPage3.Controls.Add(this.llllllll);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(790, 395);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "tabPage3";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.tabPage.Controls.Add(this.pictureBox4);
+            this.tabPage.Controls.Add(this.textBox4);
+            this.tabPage.Controls.Add(this.textBox3);
+            this.tabPage.Controls.Add(this.textBox2);
+            this.tabPage.Controls.Add(this.button2);
+            this.tabPage.Controls.Add(this.button1);
+            this.tabPage.Controls.Add(this.label5);
+            this.tabPage.Controls.Add(this.label4);
+            this.tabPage.Controls.Add(this.label2);
+            this.tabPage.Controls.Add(this.label1);
+            this.tabPage.Controls.Add(this.textBox1);
+            this.tabPage.Controls.Add(this.llllllll);
+            this.tabPage.Location = new System.Drawing.Point(4, 22);
+            this.tabPage.Name = "tabPage";
+            this.tabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage.Size = new System.Drawing.Size(790, 395);
+            this.tabPage.TabIndex = 2;
+            this.tabPage.Text = "Ingresar Producto";
+            this.tabPage.UseVisualStyleBackColor = true;
+            this.tabPage.Click += new System.EventHandler(this.tabPage_Click);
             // 
-            // tabControl1
+            // poh
             // 
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.tabControl1.Location = new System.Drawing.Point(1, 28);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.ShowToolTips = true;
-            this.tabControl1.Size = new System.Drawing.Size(798, 421);
-            this.tabControl1.TabIndex = 0;
+            this.poh.Controls.Add(this.tabPage);
+            this.poh.Controls.Add(this.tabPage1);
+            this.poh.Controls.Add(this.tabPage2);
+            this.poh.Controls.Add(this.tabPage4);
+            this.poh.Cursor = System.Windows.Forms.Cursors.Default;
+            this.poh.Location = new System.Drawing.Point(1, 28);
+            this.poh.Name = "poh";
+            this.poh.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.poh.SelectedIndex = 0;
+            this.poh.ShowToolTips = true;
+            this.poh.Size = new System.Drawing.Size(798, 421);
+            this.poh.TabIndex = 0;
             // 
             // tabPage1
             // 
@@ -126,7 +127,7 @@ namespace NaturVida
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(790, 395);
             this.tabPage1.TabIndex = 3;
-            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.Text = "Consultar Producto";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
@@ -140,7 +141,7 @@ namespace NaturVida
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(790, 395);
             this.tabPage2.TabIndex = 4;
-            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.Text = "Modificar Producto";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // tabPage4
@@ -154,7 +155,7 @@ namespace NaturVida
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage4.Size = new System.Drawing.Size(790, 395);
             this.tabPage4.TabIndex = 5;
-            this.tabPage4.Text = "tabPage4";
+            this.tabPage4.Text = "Eliminar Producto";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // llllllll
@@ -435,12 +436,12 @@ namespace NaturVida
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.poh);
             this.Name = "GestionProdc";
             this.Text = "GestionProdc";
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
-            this.tabControl1.ResumeLayout(false);
+            this.tabPage.ResumeLayout(false);
+            this.tabPage.PerformLayout();
+            this.poh.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
@@ -458,8 +459,8 @@ namespace NaturVida
 
         #endregion
 
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage;
+        private System.Windows.Forms.TabControl poh;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage4;

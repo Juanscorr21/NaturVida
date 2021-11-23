@@ -9,3 +9,4 @@ C:\Users\luism\OneDrive\Escritorio\Proyectós React\NaturVisa-Sena\NaturVida\Nat
 C:\Users\luism\OneDrive\Escritorio\Proyectós React\NaturVisa-Sena\NaturVida\NaturVida\obj\Debug\NaturVida.csproj.CoreCompileInputs.cache
 C:\Users\luism\OneDrive\Escritorio\Proyectós React\NaturVisa-Sena\NaturVida\NaturVida\obj\Debug\NaturVida.exe
 C:\Users\luism\OneDrive\Escritorio\Proyectós React\NaturVisa-Sena\NaturVida\NaturVida\obj\Debug\NaturVida.pdb
+C:\Users\luism\OneDrive\Escritorio\Proyectós React\NaturVisa-Sena\NaturVida\NaturVida\obj\Debug\NaturVida.Factura.resources
