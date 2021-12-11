@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace NaturVida.Models
 {
-    class ProductoM
+    class Producto
     {
         private int proCodigo;
         private string proDescripcion;
         private int proValor;
         private int proCantidad ;
 
-        public ProductoM()
+        public Producto()
         {
             this.proCodigo = 0;
             this.proDescripcion = "";

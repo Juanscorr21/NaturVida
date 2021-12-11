@@ -20,3 +20,4 @@ C:\Users\JUAN CS\Desktop\Proyectos\.net\NaturVida\NaturVida\obj\Debug\NaturVida.
 C:\Users\JUAN CS\Desktop\Proyectos\.net\NaturVida\NaturVida\obj\Debug\NaturVida.csproj.CoreCompileInputs.cache
 C:\Users\JUAN CS\Desktop\Proyectos\.net\NaturVida\NaturVida\obj\Debug\NaturVida.exe
 C:\Users\JUAN CS\Desktop\Proyectos\.net\NaturVida\NaturVida\obj\Debug\NaturVida.pdb
+C:\Users\JUAN CS\Desktop\Proyectos\.net\NaturVida\NaturVida\obj\Debug\NaturVida.FrProductoM.resources

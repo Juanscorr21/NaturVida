@@ -62,7 +62,13 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\ProductoM.cs" />
+    <Compile Include="Models\Producto.cs" />
+    <Compile Include="MoficarProductoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoficarProductoForm.Designer.cs">
+      <DependentUpon>MoficarProductoForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GestionProdc.resx">
@@ -70,6 +76,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoficarProductoForm.resx">
+      <DependentUpon>MoficarProductoForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
